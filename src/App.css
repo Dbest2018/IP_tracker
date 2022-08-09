@@ -2,6 +2,7 @@
   position: relative;
   background-image: url(./images/pattern-bg.png);
   background-size: cover;
+  width: 100%;
   padding: 2rem;
   height: 300px;
 }
@@ -16,12 +17,11 @@
 .app__header-search {
   height: 55px;
   margin: 2rem 0;
-  max-width: 500px;
   border-radius: 0.75rem;
   background-color: white;
 }
 .app__header-address {
-  max-width: 500px;
+  max-width: 800px;
   position: absolute;
   left: 2rem;
   right: 2rem;
@@ -32,5 +32,23 @@
 
 .app__map {
   background-color: var(--dark-gray);
+  width: 100%;
   height: 500px;
+}
+
+@media (min-width: 600px) {
+  .app__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app__header-search {
+    width: 500px;
+  }
+
+  .app__header-address {
+    bottom: -50px;
+    margin: auto;
+  }
 }

@@ -16,10 +16,12 @@
 .app__header-search {
   height: 55px;
   margin: 2rem 0;
+  max-width: 500px;
   border-radius: 0.75rem;
   background-color: white;
 }
 .app__header-address {
+  max-width: 500px;
   position: absolute;
   left: 2rem;
   right: 2rem;

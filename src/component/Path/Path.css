@@ -1,0 +1,12 @@
+.path {
+  margin: 1rem;
+}
+.path__title {
+  color: var(--dark-gray);
+}
+
+.path__content {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--vdark-gray);
+}
